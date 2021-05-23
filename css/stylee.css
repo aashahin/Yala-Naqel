@@ -3086,7 +3086,7 @@ p {
 }
 
 .features .image:before {
-  content: "";
+  content: "\e8fa";
   position: absolute;
   bottom: 5px;
   left: 5px;
@@ -3201,13 +3201,13 @@ p {
 }
 
 .work-process.process-arrow:after {
-  content: '';
+  content: '\e8fa';
   position: absolute;
   width: 60%;
   height: 40px;
   top: 80px;
   left: 80%;
-  background: url("../images/process.png") center center no-repeat;
+  background: url("https://res.cloudinary.com/mrshahin/image/upload/v1621790255/process-rtl_hjuzu3.webp") center center no-repeat;
   z-index: 1;
 }
 
@@ -3378,7 +3378,7 @@ p {
 .saas-feature-shape-right:after,
 .social-feature-left:after,
 .social-feature-right:after {
-  content: "";
+  content: "\e8fa";
   position: absolute;
   z-index: -1;
 }
@@ -3465,7 +3465,7 @@ p {
 }
 
 .client-testi .content:before {
-  content: "";
+  content: "\e8fa";
   position: absolute;
   top: 30px;
   left: 0;
