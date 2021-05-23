@@ -5351,7 +5351,7 @@ p {
 .work-process.process-arrow:after {
   right: 80%;
   left: 0 !important;
-  background: url("../images/process-rtl.webp") center center no-repeat;
+  background: url("https://res.cloudinary.com/mrshahin/image/upload/v1621790255/process-rtl_hjuzu3.webp") center center no-repeat;
 }
 
 .bg-animation-left:after {
