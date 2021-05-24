@@ -1,9 +1,8 @@
-/* Template Name: Landrick - Saas & Software Landing Page Template
-   Author: Shreethemes
-   E-mail: support@shreethemes.in
-   Created: August 2019
-   Version: 3.2.0
-   Updated: April 2021
+/* Template Name: YalaNaqel
+   Author: Abdelrahman Shaheen
+   E-mail: mr.shaheenn@gmail.com
+   Created: 2021 / 5
+   Version: 1.7.4
    File Description: Main Css file of the template
 */
 /*********************************/
@@ -27,18 +26,7 @@
  *     16.  Countdown            *
  *     17.  Contact              *
  *     18.  Footer               *
- *********************************
 
- *********************************
- *         RTL SCSS              *
- *********************************
- *     01.  Bootstrap Custom RTL *
- *     02.  Components RTL       *
- *     03.  General RTL          *
- *     04.  Helper RTL           *
- *     05.  Menu RTL             *
- ================================*/
-/*********************************/
 /*         Variables             */
 /*===============================*/
 @import url("https://fonts.googleapis.com/css?family=Cairo:300,400,500,700&display=swap");
@@ -2931,12 +2919,6 @@ p {
   clip-path: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
 }
 
-.bg-animation-left.task-management-home:after {
-  background: url("../images/task/bg.png") #2f55d4;
-  width: 100%;
-  clip-path: circle(65% at 40% 25%);
-}
-
 .bg-invoice {
   padding: 100px 0;
   background-size: cover;
@@ -4170,6 +4152,7 @@ p {
 
 .work-container.work-modern:hover .overlay-work {
   opacity: 0.65;
+  filter:saturate(5);
 }
 
 .work-container.work-modern:hover .icons {
@@ -4189,7 +4172,16 @@ p {
 .work-container.work-grid img, .work-container.work-grid .content, .work-container.work-grid .content .title {
   transition: all 0.5s ease;
 }
-
+.images-main {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+align-content: center;
+gap: 10px;
+margin-top: -150px;
+}
 .work-container.work-grid .content {
   position: absolute;
   bottom: 0;
@@ -5454,10 +5446,6 @@ p {
   left: auto;
 }
 
-.rtl-personal-hero {
-  background-image: url("../images/personal/rtl-bg01.png") !important;
-}
-
 .home-wrapper:before {
   right: auto;
   left: 0rem;
@@ -5565,17 +5553,6 @@ p {
   left: 15px;
 }
 
-.main-slider .slides .bg-home.slider-rtl-1 {
-  background-image: url("../images/shop/rtl-bg1.jpg") !important;
-}
-
-.main-slider .slides .bg-home.slider-rtl-2 {
-  background-image: url("../images/shop/rtl-bg2.jpg") !important;
-}
-
-.main-slider .slides .bg-home.slider-rtl-3 {
-  background-image: url("../images/shop/rtl-bg3.jpg") !important;
-}
 
 .shop-list .shop-image .shop-icons {
   right: auto;
