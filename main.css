@@ -390,9 +390,9 @@ video:focus {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.focus {
-  background-color: #2443ac !important;
-  border-color: #2443ac !important;
-  color: #ffffff !important;
+    background-color: #ffffff !important;
+    border-color: #2443ac !important;
+    color: #2443ac !important;
 }
 
 .btn-soft-primary {
@@ -1271,9 +1271,6 @@ button:not(:disabled) {
   color: #2f55d4;
 }
 
-.breadcrumb .breadcrumb-item:before {
-  content: "";
-}
 
 .breadcrumb .breadcrumb-item:after {
   content: "\F0142" !important;
@@ -5182,12 +5179,6 @@ margin-top: -150px;
   right: auto;
 }
 
-.breadcrumb .breadcrumb-item:before {
-  content: "\F0141";
-  font-family: 'Material Design Icons';
-  color: #3c4858;
-  padding: 0 6px !important;
-}
 
 .breadcrumb .breadcrumb-item:after {
   display: none;
