@@ -3065,7 +3065,7 @@ p {
 }
 
 .features .image:before {
-  content: "\e8fa";
+  content: "";
   position: absolute;
   bottom: 5px;
   left: 5px;
@@ -3180,7 +3180,7 @@ p {
 }
 
 .work-process.process-arrow:after {
-  content: '\e8fa';
+  content: '';
   position: absolute;
   width: 60%;
   height: 40px;
